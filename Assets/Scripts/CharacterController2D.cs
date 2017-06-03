@@ -46,7 +46,7 @@ public class CharacterController2D : MonoBehaviour {
 	float _vy;
 
 	// player tracking
-	bool _facingLeft = true;
+	bool _facingLeft = false;
 	bool _isGrounded = false;
 	bool _isRunning = false;
 	bool _canDoubleJump = false;
